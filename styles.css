@@ -1,2 +1,52 @@
+body {
+    background-color: #f8f9fa;
+}
 
-/* Your CSS Code here. */
+.container {
+    max-width: 700px;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-control, .form-select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.invalid-feedback {
+    font-size: 14px;
+    color: #dc3545;
+}
+
+.form-check-input:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
